@@ -1,0 +1,24 @@
+set -K
+
+function func
+{
+typeset INP
+
+INP=$1
+while read b
+do
+	if [ $b != $INP ];then
+		print " $b  not equal $INP "
+	fi
+done <in2
+}
+
+#MAIN
+
+while read k
+do
+	print "=== $k ===="
+	func $k
+#done < in1
+done < analyze_scripts1.sh.vie.lst
+

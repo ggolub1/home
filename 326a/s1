@@ -1,0 +1,42 @@
+#!c:/mk/mksnt/ksh
+set -x
+set -K
+
+ROOTDIR=c:/de1/326
+SCRDIR=$ROOTDIR
+LOGDIR=$ROOTDIR
+
+PROGNAME=`basename $0`
+LOG1=$LOGDIR/$PROGNAME.log1
+LOG2=$LOGDIR/$PROGNAME.log2
+INP=$SCRDIR/CA1L033266.txt 
+OUTF1=`basename $INP`
+OUTF=$LOGDIR/"${OUTF1%.*}".csv
+
+
+#sed -e 's/^[ 	]*//g' -e'/^$/d' -e'/Enabled Local Group Member/d' $SCRDIR/t1.txt > $LOG1
+#sed -e 's/^[ 	]*//g' -e'/^$/d' -e'/Enabled Local Group Member/d' $SCRDIR/CA1L033266.txt > $LOG1
+sed -e 's/^[ 	]*//g' -e'/Enabled Local Group Member/d' $SCRDIR/CA1L033266.txt > $LOG1
+
+awk '$0 ~/^$/{next}
+
+$0 ~ /[|]/ {a=$0
+#print "S2:", a
+}
+
+$0 !~/[|]/{
+#print "S1:", $0
+z=split($0,ar1,":")
+gsub(/[ 	]/,"", ar1[2])
+#print "S3:", ar1[1], ar1[2]
+ar2[ar1[1]]=ar1[2]
+#for (k in ar2)
+#	print "S5:", k, arr2[k]
+}
+$0 ~ /Privileges/{
+#print "S4:",a
+print a","ar2["Member Name"]","ar2["Member ID"]","ar2["Target Account Name"]","ar2["Target Domain"]","ar2["Target Account ID"]","ar2["Caller User Name"]","ar2["Caller Domain"]","ar2["Caller Logon ID"]","ar2["Privileges"]
+delete arr2
+}
+' $LOG1 > $OUTF
+cat $OUTF

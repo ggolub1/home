@@ -1,0 +1,242 @@
+CA1L033266|3/22/2010 9:56:32 AM
+Security Enabled Local Group Member Added:
+
+	Member Name:	-
+
+	Member ID:	R1-CORE\JCHANGLE
+
+	Target Account Name:	Administrators
+
+	Target Domain:	Builtin
+
+	Target Account ID:	BUILTIN\Administrators
+
+	Caller User Name:	Aigadmin
+
+	Caller Domain:	CA1L033266
+
+	Caller Logon ID:	(0x0,0x16A11)
+
+	Privileges:	-
+
+
+CA1L033266|3/19/2010 3:31:03 PM
+Security Enabled Local Group Member Added:
+
+	Member Name:	-
+
+	Member ID:	CA1L033266\ASPNET
+
+	Target Account Name:	Users
+
+	Target Domain:	Builtin
+
+	Target Account ID:	BUILTIN\Users
+
+	Caller User Name:	CA1L033266$
+
+	Caller Domain:	R1-CORE
+
+	Caller Logon ID:	(0x0,0x3E7)
+
+	Privileges:	-
+
+
+CA1L033266|3/19/2010 4:15:13 PM
+Security Enabled Local Group Member Added:
+
+	Member Name:	-
+
+	Member ID:	R1-CORE\JCHANGLE
+
+	Target Account Name:	Network Configuration Operators
+
+	Target Domain:	Builtin
+
+	Target Account ID:	BUILTIN\Network Configuration Operators
+
+	Caller User Name:	Aigadmin
+
+	Caller Domain:	CA1L033266
+
+	Caller Logon ID:	(0x0,0x101C2)
+
+	Privileges:	-
+
+
+CA1L033266|3/19/2010 4:15:12 PM
+Security Enabled Local Group Member Added:
+
+	Member Name:	-
+
+	Member ID:	R1-CORE\JCHANGLE
+
+	Target Account Name:	Power Users
+
+	Target Domain:	Builtin
+
+	Target Account ID:	BUILTIN\Power Users
+
+	Caller User Name:	Aigadmin
+
+	Caller Domain:	CA1L033266
+
+	Caller Logon ID:	(0x0,0x101C2)
+
+	Privileges:	-
+
+
+CA1L033266|3/19/2010 3:31:07 PM
+Security Enabled Local Group Member Added:
+
+	Member Name:	-
+
+	Member ID:	CA1L033266\DEAdmin
+
+	Target Account Name:	Administrators
+
+	Target Domain:	Builtin
+
+	Target Account ID:	BUILTIN\Administrators
+
+	Caller User Name:	CA1L033266$
+
+	Caller Domain:	WORKGROUP
+
+	Caller Logon ID:	(0x0,0x3E7)
+
+	Privileges:	-
+
+
+CA1L033266|3/19/2010 3:09:31 PM
+Security Enabled Local Group Member Added:
+
+	Member Name:	-
+
+	Member ID:	R1-CORE\Workstation_Admins
+
+	Target Account Name:	Administrators
+
+	Target Domain:	Builtin
+
+	Target Account ID:	BUILTIN\Administrators
+
+	Caller User Name:	Aigadmin
+
+	Caller Domain:	CA1L033266
+
+	Caller Logon ID:	(0x0,0x101C2)
+
+	Privileges:	-
+
+
+CA1L033266|3/19/2010 3:09:22 PM
+Security Enabled Local Group Member Added:
+
+	Member Name:	-
+
+	Member ID:	R1-CORE\AIGDC-Config
+
+	Target Account Name:	Administrators
+
+	Target Domain:	Builtin
+
+	Target Account ID:	BUILTIN\Administrators
+
+	Caller User Name:	Aigadmin
+
+	Caller Domain:	CA1L033266
+
+	Caller Logon ID:	(0x0,0x101C2)
+
+	Privileges:	-
+
+
+CA1L033266|3/19/2010 3:09:12 PM
+Security Enabled Local Group Member Added:
+
+	Member Name:	-
+
+	Member ID:	R1-CORE\RC DameWare Admin
+
+	Target Account Name:	Administrators
+
+	Target Domain:	Builtin
+
+	Target Account ID:	BUILTIN\Administrators
+
+	Caller User Name:	Aigadmin
+
+	Caller Domain:	CA1L033266
+
+	Caller Logon ID:	(0x0,0x101C2)
+
+	Privileges:	-
+
+
+CA1L033266|3/19/2010 3:09:03 PM
+Security Enabled Local Group Member Added:
+
+	Member Name:	-
+
+	Member ID:	R1-CORE\RC DameWare HelpDesk
+
+	Target Account Name:	Administrators
+
+	Target Domain:	Builtin
+
+	Target Account ID:	BUILTIN\Administrators
+
+	Caller User Name:	Aigadmin
+
+	Caller Domain:	CA1L033266
+
+	Caller Logon ID:	(0x0,0x101C2)
+
+	Privileges:	-
+
+
+CA1L033266|3/19/2010 3:08:41 PM
+Security Enabled Local Group Member Added:
+
+	Member Name:	-
+
+	Member ID:	R1-CORE\Domain Users
+
+	Target Account Name:	Users
+
+	Target Domain:	Builtin
+
+	Target Account ID:	BUILTIN\Users
+
+	Caller User Name:	Aigadmin
+
+	Caller Domain:	CA1L033266
+
+	Caller Logon ID:	(0x0,0x101C2)
+
+	Privileges:	-
+
+
+CA1L033266|3/19/2010 3:08:41 PM
+Security Enabled Local Group Member Added:
+
+	Member Name:	-
+
+	Member ID:	R1-CORE\Domain Admins
+
+	Target Account Name:	Administrators
+
+	Target Domain:	Builtin
+
+	Target Account ID:	BUILTIN\Administrators
+
+	Caller User Name:	Aigadmin
+
+	Caller Domain:	CA1L033266
+
+	Caller Logon ID:	(0x0,0x101C2)
+
+	Privileges:	-
+
+

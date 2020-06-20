@@ -1,0 +1,33 @@
+#!c:/mk/mksnt/ksh
+set -x
+$set -K
+
+ROOTDIR=/c/de1/326
+SCRDIR=$ROOTDIR
+LOGDIR=$ROOTDIR
+
+PROGNAME=`basename $0`
+LOG1=$LOGDIR/$PROGNAME.log1
+LOG2=$LOGDIR/$PROGNAME.log2
+INP=$SCRDIR/CA1L033266.txt 
+OUTF1=`basename $INP`
+OUTF=$LOGDIR/"${OUTF1%.*}".csv
+
+
+awk '$0 ~/^$/{next}
+$0 ~/Enabled Local Group Member/{next}
+
+$0 ~ /[|]/ {a=$0}
+
+$0 !~/[|]/{
+z=split($0,ar1,":")
+gsub(/[ 	]/,"", ar1[2])
+gsub(/^[ 	]*/,"", ar1[1])
+ar2[ar1[1]]=ar1[2]
+}
+$0 ~ /Privileges/{
+print a","ar2["Member Name"]","ar2["Member ID"]","ar2["Target Account Name"]","ar2["Target Domain"]","ar2["Target Account ID"]","ar2["Caller User Name"]","ar2["Caller Domain"]","ar2["Caller Logon ID"]","ar2["Privileges"]
+delete arr2
+}
+' $SCRDIR/CA1L033266.txt > $OUTF
+cat $OUTF
