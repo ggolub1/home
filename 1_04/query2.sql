@@ -8,7 +8,6 @@ CREATE ENDPOINT Endpoint_Mirroring
 GO
 --Partners under same domain user; login already exists in master
 
- sp_helpdb db1
  name	fileid	filename	filegroup	size	maxsize	growth	usage
 db1	1	C:\Program Files\Microsoft SQL Server\MSSQL11.I1\MSSQL\DATA\db1.mdf	PRIMARY	3072 KB	Unlimited	1024 KB	data only
 db1_log	2	C:\Program Files\Microsoft SQL Server\MSSQL11.I1\MSSQL\DATA\db1_log.ldf	NULL	1024 KB	2147483648 KB	10%	log only
