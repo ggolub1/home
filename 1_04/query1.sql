@@ -1,7 +1,6 @@
 select * from [dbo].[Employee1]
 select * from [dbo].[Employee_dif_7933]
 select * from [dbo].[Employee_dif_54570]
-select * from t1
 
 --create an endpoint for this instance
 drop endpoint Endpoint_Mirroring
