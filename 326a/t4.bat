@@ -1,1 +1,1 @@
-"c:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/sqlcmd" -E -S . -d db1 -i C:\gith\326a\t4.txt
+"c:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/sqlcmd" -U gene -P gene -S . -d db1 -i C:\gith\326a\t4.txt
