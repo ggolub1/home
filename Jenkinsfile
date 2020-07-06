@@ -5,9 +5,7 @@ pipeline {
 		steps {
 	                bat "echo running batch file : %date% : %time%"
 	                bat "dir \"${env.WORKSPACE}\""
-
-
-
+                	bat "call \"${env.WORKSPACE}\"\\326a\\t4.bat"	                
             }
         }
     }
