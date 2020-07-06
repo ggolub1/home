@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                bat "echo Hello world! : %date% : %time%"
-                bat "echo %WORKSPACE%"
-                bat "echo ${WORKSPACE} unix synt"
+                bat "echo running batch file : %date% : %time%"
+                bat "%WORKSPACE%\326a\t4.bat"
+
             }
         }
     }
