@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo "Hello world! : %date% : %time%"
                 echo %WORKSPACE%
-                echo $WORKSPACE
+                echo "$WORKSPACE unix synt"
             }
         }
     }
