@@ -4,7 +4,7 @@ pipeline {
         stage('Stage 1') {
 		steps {
 	                bat "echo running batch file : %date% : %time%"
-	                bat "ls ${env.WORKSPACE}"
+	                bat "dir ${env.WORKSPACE}"
 
 
 
