@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                sh "echo running batch file : %date% : %time%"
-                sh "A='c:\\tmp'"
-                sh "ls %{A}"
+                bat "echo running batch file : %date% : %time%"
+                bat "A=c:\\tmp"
+                bat "ls ${A}"
 
 
 
