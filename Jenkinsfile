@@ -5,7 +5,7 @@ pipeline {
             steps {
                 bat "echo running batch file : %date% : %time%"
                 bat "set A='c:\\tmp'"
-                bat "dir %A%"
+                bat dir %A%
 
 
 
