@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                bat "echo running batch file : %date% : %time%"
-                bat "set A='c:\\tmp'"
-                bat dir %A%
+                sh "echo running batch file : %date% : %time%"
+                sh "set A='c:\\tmp'"
+                sh dir %A%
 
 
 
