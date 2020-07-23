@@ -17,4 +17,4 @@ Security Enabled Local Group Member Added:
 
 	Caller Logon ID:	(0x0,0x16A11)
 
-	Privileges:sss
+	Privileges:
