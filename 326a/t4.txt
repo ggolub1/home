@@ -1,1 +1,2 @@
 insert db1.dbo.version(version) values('1.1.0')
+insert db1.dbo.version2(version) values('1.1.0')
